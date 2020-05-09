@@ -1,0 +1,22 @@
+1. Introduction p
+2. History of Text Summarization b
+3. Types of " p
+4. Our implemented algos - Weighted Freq b
+5. Probability b
+6. text rank p
+7. trying improvements in text rank(convergence) p
+8. future implementations(brief about 1 2 more extractive and then abstractive) b
+9. Progress(comparision with gantt etc) p 
+10. Conclusion b
+11. bibliography
+
+
+
+Extractive
+1. Weighted Frequency
+2. Probability
+
+Text Rank
+-Simple
+-Convergence
+ -collapsing adjacent words
