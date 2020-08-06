@@ -7,10 +7,10 @@ text = "Democracy isn’t taking over the world as many hoped. In many places, i
 text = text.split(".")
 text = [x.lstrip() for x in text]
 text = [x.rstrip() for x in text]
-exhm = Exhaustive(tokens=text)
-ktop = exhm.KTopRanks(k=2)
-for s, wt in ktop:
-    print(s)
+textrank = TextRank(nodes=len(text), text=text)
+ktop = textrank.KTopRanks(k=2)
+for line in ktop:
+    print(line)
 
 
 
